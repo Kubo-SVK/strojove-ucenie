@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#PyCharm folder
+**/*.idea
+
+#ZIP files
+**/*.zip
+
+#images, etc...
+**/*.jpg
+**/*.png
+**/*.docx
