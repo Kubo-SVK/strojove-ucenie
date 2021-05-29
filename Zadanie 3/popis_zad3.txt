@@ -1,0 +1,35 @@
+========================STPĹCE V DATASETE==========================
+
+objid - id pozorovania - URČITE NEVHODNÉ AKO VSTUP
+[u, g, r, i, z] -  odpoveď z optických filtrov kamery teleskopu
+run - Run number - identifikuje scan 
+rerun - Rerun number - špecifikuje, ako bol obraz spracovaný - NEVHODNÉ AKO VSTUP
+camcol - Camera column - [1-6] - výsek (pás) skenu oblohy, na ktorom bolo pozorovanie zachytené
+field - Field number - časť z pásu (camcol), na ktorom bolo pozorovanie zachytené
+specobjid - id objektu - URČITE NEVHODNÉ AKO VSTUP
+class - trieda objektu - [star, galaxy, quazar] - VYSTUP PRE KLASIFIKÁCIU
+plate - číslo platne v teleskope 
+mjd - modified julian date - kedy bol obraz vyhotovený
+fiberid - id vlákna v teleskope 
+[x_coord, y_coord, z_coord] - poloha pozorovaného objektu v kart. súradniciach - megaparsec - VÝSTUPNÉ HODNOTY PRE REGRESIU
+
+
+============================= INFO ==============================
+The Sloan Digital Sky Survey is a project which offers public data of space observations. Observations have been made since 1998 and have been made accessible to everyone who is interested.
+
+For this purpose a special 2.5 m diameter telescope was built at the Apache Point Observatory in New Mexico, USA. The telescope uses a camera of 30 CCD-Chips with 2048x2048 image points each. The chips are ordered in 5 rows with 6 chips in each row. Each row observes the space through different optical filters (u, g, r, i, z) at wavelengths of approximately 354, 476, 628, 769, 925 nm.
+
+The telescope covers around one quarter of the earth's sky - therefore focuses on the northern part of the sky.
+
+For more information: http://www.sdss.org/
+
+
+================== ĎALŠIE ČÍTANIE O STĹPCOCH ====================
+
+u, g, r, i, z - http://www.sdss3.org/dr8/algorithms/magnitudes.php
+
+run, rerun, camcol, field - údaje o tom, ako bol obraz zachytený - http://www.sdss3.org/dr9/imaging/imaging_basics.php
+
+mjd, plate, fiber - http://www.sdss3.org/dr9/tutorials/understanddata.php
+
+for everything else - http://www.sdss3.org/dr8/glossary.php
